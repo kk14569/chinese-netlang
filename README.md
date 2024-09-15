@@ -2,7 +2,7 @@
 
 本语言包基于 [flarum-lang/chinese-simplified](https://github.com/flarum-lang/chinese-simplified)。
 
-灵感来自 LOLCat，为 Flarum 带来更加幽默中文翻译。
+灵感来自 LOLCat，为 Flarum 带来更加幽默中文翻译，仅供娱乐。
 
 ### 要求 / Require
 

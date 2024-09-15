@@ -5,26 +5,26 @@
 clarkwinkelmann-money-rewards:
   admin:
     permissions:
-      createMoney: '印发新 money 用于打赏'
-      customAmounts: 自定义打赏金额
-      rewardWithMoney: '使用 money 打赏其他用户'
+      createMoney: '印发新马内用于打赏'
+      customAmounts: 自定义打赏马内
+      rewardWithMoney: '使用马内打赏其他用户'
       seeMoneyRewardHistory: 查看其他用户的奖赏记录
     settings:
-      decimals: 最大自定义金额小数位数
-      max: 最高自定义金额
-      min: 最低自定义金额
-      preselection: '预设金额（英文逗号分隔, 可填项）'
+      decimals: 最大自定义马内小数位数
+      max: 最高自定义马内
+      min: 最低自定义马内
+      preselection: '预设马内（英文逗号分隔, 可填项）'
   api:
     error:
-      decimals: '金额精确到 {decimals} 位小数。'
-      notEnoughFunds: 没有足够的金额。
+      decimals: '马内精确到 {decimals} 位小数。'
+      notEnoughFunds: 没有足够的马内。
   forum:
     modal:
       balance: '余额：{amount}'
       label:
         comment: 评论（公开）
         create: 不消耗余额来进行打赏
-        custom: 自定义金额
+        custom: 自定义马内
       optionCustom: 自定义
       submit: 提交
       success: 已打赏作者！

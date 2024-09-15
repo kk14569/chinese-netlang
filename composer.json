@@ -1,5 +1,5 @@
 {
-  "name": "flarum-lang/chinese-simplified",
+  "name": "kk14569/chinese-netlang",
   "description": "Chinese netlang for Flarum.",
   "keywords": [
     "flarum",
@@ -35,9 +35,6 @@
         "backgroundSize": "cover",
         "backgroundPosition": "center"
       }
-    },
-    "flagrow": {
-      "discuss": "https://discuss.flarum.org/d/22690"
     },
     "flarum-locale": {
       "code": "zh-netlang",

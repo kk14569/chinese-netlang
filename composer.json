@@ -10,6 +10,7 @@
     "梗体中文"
   ],
   "type": "flarum-extension",
+  "version": "v1.0.0",
   "license": "MIT",
   "authors": [
     {

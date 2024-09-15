@@ -5,21 +5,21 @@
 antoinefr-money:
   admin:
     automoderator:
-      action_name: 奖励财富
-      metric_name: 财富
+      action_name: 奖励马内
+      metric_name: 马内
     autoremove:
-      - 财富只增不减
+      - 马内只增不减
       - 隐藏或恢复主题/帖子时（默认）
       - 删除主题/帖子时
     permissions:
-      edit_money_label: 调整财富
+      edit_money_label: 调整马内
     settings:
-      autoremove: 重算计算财富
+      autoremove: 重算计算马内
       helpextensionlikes: '需要 <code>flarum/likes</code> 扩展程序'
       moneyfordiscussion: 发贴一次可获得
       moneyforlike: 获得点赞时可获得
       moneyforpost: 回帖一次可获得
-      moneyname: '定义财富（例如：[money] 元）'
+      moneyname: '定义马内（例如：[money] 元）'
       noshowzero: '若值为 0 则不显示'
       postminimumlength: '可获得奖励的最少回帖字数（0 表示不限制）'
       title: 设置
@@ -27,6 +27,6 @@ antoinefr-money:
     modal:
       current: 当前：
       submit_button: '=> core.ref.save_changes'
-      title: '{username} 的财富'
+      title: '{username} 的马内'
     user_controls:
-      money_button: 修改财富
+      money_button: 修改马内

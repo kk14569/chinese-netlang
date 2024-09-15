@@ -23,8 +23,8 @@ core:
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 请输入十六进制颜色代码。
-      favicon_heading: 站点图标
-      favicon_text: 上传图片做为论坛的站点图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。
+      favicon_heading: 网站图标
+      favicon_text: 上传图片做为论坛的网站图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。
       logo_heading: 标志
       logo_text: 上传图片代替论坛名称，并展示在导航栏左侧。
       title: 外观
@@ -57,7 +57,7 @@ core:
     dashboard:
       clear_cache_button: 清除缓存
       description: 论坛各项数据一览
-      io_error_message: 无法写入文件。请检查操作权限，重试或者直接从命令行运行命令。
+      io_error_message: 无法写入文件。请检查操作神权，重试或者直接从命令行运行命令。
       status:
         headers:
           queue-driver: 队列驱动程序
@@ -88,8 +88,8 @@ core:
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
       name_label: 名称
-      plural_placeholder: 用户组（例如：管理组）
-      singular_placeholder: 用户组成员（例如：管理员）
+      plural_placeholder: 用户组（比如说：管理组）
+      singular_placeholder: 用户组成员（比如说：管理员）
       submit_button: '=> core.ref.save_changes'
       title: 添加用户组
     edit_header:
@@ -114,7 +114,7 @@ core:
       not_sending_message: 'Flarum 当前无法发送电子邮件，请检查邮件驱动及其配置。'
       send_test_mail_button: 发送
       send_test_mail_heading: 发送测试邮件
-      send_test_mail_success: 测试邮件发送成功！
+      send_test_mail_success: 测试邮件已经发送了，快去收件箱看吧！
       send_test_mail_text: '使用上述设置发送测试邮件到您的邮箱：{email}'
       smtp_heading: 'SMTP 设置'
       title: '=> core.ref.email'
@@ -123,7 +123,7 @@ core:
       confirm_purge: '重置操作会清除数据库中所有该扩展相关的记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？'
       confirm_uninstall: 此扩展的的数据库条目和文件资源都将被永久性删除，确定要继续吗？
       disabled: 关闭
-      enable_to_see: 开启扩展程序以查看或修改设置。
+      enable_to_see: 扩展没开，你设置个集贸。
       enabled: 开启
       info_links:
         discuss: 讨论帖
@@ -132,10 +132,10 @@ core:
         source: 源码
         support: 支持
         website: 主页
-      no_permissions: 此扩展无新增权限。
-      no_settings: 此扩展无设置项。
+      no_permissions: 这个扩展没有神权。
+      no_settings: 这个扩展是不让设置的。
       open_modal: 打开设置
-      permissions_title: 权限
+      permissions_title: 神权
       purge_button: 重置
       readme:
         button_label: 自述文件
@@ -146,7 +146,7 @@ core:
       get_help: 帮助
       log_out_button: '=> core.ref.log_out'
     loading:
-      title: 请稍后……
+      title: 给我等着……
     nav:
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
@@ -181,7 +181,7 @@ core:
       delete_discussions_label: 删除主题
       delete_posts_forever_label: 永久删除回复
       delete_posts_label: 删除回复
-      description: 设置各用户组访问及操作权限
+      description: 设置各用户组访问及操作神权
       edit_posts_label: 编辑回复
       edit_users_credentials_label: 编辑用户核心数据（用户名、邮箱和密码）
       edit_users_groups_label: 编辑用户组
@@ -197,8 +197,8 @@ core:
       reply_to_discussions_label: 回复
       search_users_label: '=> core.ref.search_users'
       sign_up_label: 注册
-      start_discussions_label: 发布主题
-      title: 权限
+      start_discussions_label: 发主题
+      title: 神权
       view_forum_label: 浏览论坛（讨论和用户）
       view_hidden_groups_label: 查看隐藏的用户组徽章
       view_last_seen_at_label: 查看用户上次在线时间
@@ -206,8 +206,8 @@ core:
     permissions_controls:
       allow_indefinitely_button: 无限制
       allow_never_button: '=> core.ref.never'
-      allow_some_minutes_button: '{count, plural, one {发布 # 分钟内} other {发布 # 分钟内}}'
-      allow_ten_minutes_button: '发布 10 分钟内'
+      allow_some_minutes_button: '{count, plural, one {发 # 分钟内} other {发 # 分钟内}}'
+      allow_ten_minutes_button: '发 10 分钟内'
       allow_until_reply_button: 直到被回复
       everyone_button: 所有人
       members_button: '=> core.group.members'
@@ -294,25 +294,25 @@ core:
       preview_tooltip: 预览
     composer_discussion:
       body_placeholder: 说点什么吧...
-      discard_confirmation: 主题尚未发布，确定要丢弃吗？
-      submit_button: 发布
+      discard_confirmation: 主题尚未发，你说不搞了？
+      submit_button: 发
       title: '=> core.ref.start_a_discussion'
       title_placeholder: 标题
     composer_edit:
-      discard_confirmation: 更改尚未保存，确定要丢弃吗？
+      discard_confirmation: 更改尚未保存，你说不搞了？
       edited_message: 编辑成功
-      post_link: '发布 #{number} 于 {discussion}'
+      post_link: '发 #{number} 于 {discussion}'
       submit_button: '=> core.ref.save_changes'
       view_button: '=> core.ref.view'
     composer_reply:
       body_placeholder: '=> core.ref.write_a_reply'
-      discard_confirmation: 回复尚未发布，确定要丢弃吗？
+      discard_confirmation: 回复尚未发，你说不搞了？
       posted_message: 回复成功。
       submit_button: 回复
       view_button: '=> core.ref.view'
     discussion_controls:
       cannot_reply_button: 回复已关闭
-      cannot_reply_text: 您没有权限回复这个帖子。
+      cannot_reply_text: 您没有神权回复这个帖子。
       delete_button: '=> core.ref.delete'
       delete_confirmation: 确定要永久删除这个帖子？
       delete_forever_button: '=> core.ref.delete_forever'
@@ -322,11 +322,11 @@ core:
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 主题下拉菜单开关
     discussion_list:
-      empty_text: 这里空空如也...
+      empty_text: 别看了，啥也没有...
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 标记为已读
       replied_text: '{username} 回复于 {ago}'
-      started_text: '{username} 发布于 {ago}'
+      started_text: '{username} 发于 {ago}'
       total_replies_a11y_label: '{count, plural, one {# 条回复} other {# 条回复}}'
       unread_replies_a11y_label: '{count, plural, one {# 条未读} other {# 条未读}}，全部标记为已读。'
     forgot_password:
@@ -388,7 +388,7 @@ core:
     post:
       edited_text: 已编辑
       edited_tooltip: '{username} 编辑于 {ago}'
-      number_tooltip: '发布 #{number}'
+      number_tooltip: '发 #{number}'
     post_controls:
       delete_button: '=> core.ref.delete'
       delete_confirmation: 确定要永久删除这个贴子吗？此操作不可撤销。
@@ -420,11 +420,11 @@ core:
       cannot_terminate_current_session: 无法终止当前活动会话，请登出。
       created: 创建时间
       current_active_session: 当前活动会话
-      developer_tokens_heading: 开发者令牌
+      developer_tokens_heading: 整活人员令牌
       empty_text: 无可用令牌。
       global_logout:
         heading: 全局登出
-        help_text: '清除当前 Cookie 会话、终止所有会话、撤销所有开发者令牌，并使一切验证邮箱或重置密码的链接失效。'
+        help_text: '清除当前 Cookie 会话、终止所有会话、撤销所有整活人员令牌，并使一切验证邮箱或重置密码的链接失效。'
         log_out_button: '=> core.ref.log_out'
       hide_access_token: 隐藏令牌
       last_activity: 最近活动
@@ -484,7 +484,7 @@ core:
     user_controls:
       button: 操作
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 确定要删除此用户？此账号会被注销，已发布的帖子仍会保留。
+      delete_confirmation: 确定要删除此用户？此账号会被注销，已发的帖子仍会保留。
       delete_error_message: '删除用户 <i>{username} ({email})</i> 失败'
       delete_success_message: '已删除用户 <i>{username} ({email})</i>'
       edit_button: '=> core.ref.edit'
@@ -536,8 +536,8 @@ core:
       missing_dependencies_message: '无法启用「{extension}」，请先启用依赖扩展「{extensions}」'
       not_found_message: 您请求的资源不存在。
       payload_too_large_message: 请求负载过大。
-      permission_denied_message: 您没有权限进行此操作。
-      rate_limit_exceeded_message: 您的操作太频繁，请稍后再试。
+      permission_denied_message: 您没有神权进行此操作。
+      rate_limit_exceeded_message: 您的操作太频繁，给我等着再试。
       render_failed_message: 抱歉，加载此内容时出错，请刷新页面重试。如果您是管理员，请查看论坛日志文件查看详情。
     loading_indicator:
       accessible_label: '=> core.ref.loading'
@@ -578,7 +578,7 @@ core:
     extensions: 扩展程序
     generic_confirmation_message: 此操作无法撤销，确定要继续吗？
     icon: 图标
-    icon_text: '输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，例如 <code>fas fa-</code>'
+    icon_text: '输入任意一个 <a>Font Awesome</a> 图标名称。<em>包括</em>前缀，比如说 <code>fas fa-</code>'
     load_more: 加载更多
     loading: 正在加载…
     log_in: 登录
@@ -603,7 +603,7 @@ core:
     settings: 设置
     sign_up: 注册
     some_others: '{count, plural, one {# 人} other {# 人}}'
-    start_a_discussion: 发布主题
+    start_a_discussion: 发主题
     username: 用户名
     users: 用户
     view: 查看
@@ -621,26 +621,26 @@ core:
         version: 版本
       info:
         caption: 说明
-      title: 开发者
+      title: 整活人员
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
       text: 点击下方按钮确认您的邮箱。
       title: '=> core.ref.confirm_email'
     content:
-      javascript_disabled_message: '请使用更现代的浏览器并启用 JavaScript 以获得最佳浏览体验。'
+      javascript_disabled_message: '为什么不使用更现代的浏览器并启用 JavaScript 以获得最佳浏览体验啊？'
       load_error_message: 加载论坛时出错，请强制刷新页面重试。
       loading_text: '=> core.ref.loading'
     discussion:
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
     error:
-      csrf_token_mismatch: 您已经发呆很长时间了。
-      csrf_token_mismatch_return_link: 请返回再试一次
+      csrf_token_mismatch: 谁让你发呆很长时间了？
+      csrf_token_mismatch_return_link: 重开吧
       invalid_confirmation_token: 验证链接已使用或无效。
-      not_authenticated: 您没有权限访问此页面，请登录后再试。
+      not_authenticated: 您没有神权访问此页面，请登录后再试。
       not_found: 您访问的页面不存在。
       not_found_return_link: '返回 {forum}'
-      permission_denied: 您没有权限访问此页面。
+      permission_denied: 您没有神权访问此页面。
       unknown: 加载页面时出错，请检查控制台。
     index:
       all_discussions_heading: '=> core.ref.all_discussions'

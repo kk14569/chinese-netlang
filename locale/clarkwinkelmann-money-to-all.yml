@@ -5,10 +5,10 @@
 clarkwinkelmann-money-to-all:
   admin:
     settings:
-      send: 向全体用户发放财富
+      send: 向全体用户发放马内
   forum:
     notification:
-      moneyReceived: '收到财富 {amount}'
+      moneyReceived: '收到马内 {amount}'
   lib:
     modal:
       amount: 金额
@@ -19,6 +19,6 @@ clarkwinkelmann-money-to-all:
       notify: 向用户发送网络通知
       preview: '{count} 位符合条件的用户。'
       submit: 发放
-      success: '已向 {count} 位用户发放财富！'
+      success: '已向 {count} 位用户发放马内！'
       suspended: 包含封禁用户
-      title: 向所有用户发放财富
+      title: 向所有用户发放马内

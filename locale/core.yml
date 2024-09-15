@@ -532,9 +532,9 @@ core:
       dependent_extensions_message: '无法停用「{extension}」，请先停用依赖扩展「{extensions}」'
       extension_initialiation_failed_message: '初始化「{extension}」失败，详情信息请查看控制台。'
       generic_cross_origin_message: 跨域请求时出现问题，请刷新页面后重试。
-      generic_message: 糟糕，出错啦！请刷新页面重试。
+      generic_message: 完了，出错了，请刷新页面重试。
       missing_dependencies_message: '无法启用「{extension}」，请先启用依赖扩展「{extensions}」'
-      not_found_message: 糟糕，404 Not Found！
+      not_found_message: 完了，404 Not Found！
       payload_too_large_message: 请求负载过大。
       permission_denied_message: 你没有神权进行此操作。
       rate_limit_exceeded_message: 你滴操作太频繁，给我等着再试。

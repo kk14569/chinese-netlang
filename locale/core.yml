@@ -9,7 +9,7 @@ core:
       colors_heading: 颜色
       colors_primary_label: 主色调
       colors_secondary_label: 次色调
-      colors_text: 选择两种颜色作为论坛配色。第一种作为突出显示内容的颜色，第二种作为背景等元素的颜色。
+      colors_text: 选择两种颜色作为论坛配色。第一种作为突出显示内容滴颜色，第二种作为背景等元素滴颜色。
       custom_footer_heading: 自定义页脚
       custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 自定义页眉
@@ -24,7 +24,7 @@ core:
       edit_header_button: '=> core.ref.custom_header_title'
       enter_hex_message: 请输入十六进制颜色代码。
       favicon_heading: 网站图标
-      favicon_text: 上传图片做为论坛的网站图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。
+      favicon_text: 上传图片做为论坛滴网站图标，该图标会显示在浏览器标签页、搜索引擎结果条目及书签等多个地方。
       logo_heading: 标志
       logo_text: 上传图片代替论坛名称，并展示在导航栏左侧。
       title: 外观
@@ -33,15 +33,15 @@ core:
       default_language_heading: 默认语言
       description: 设置论坛名称、语言以及其他基础设置
       display_name_heading: 用户外显名称
-      display_name_text: 选择外显名称的类型，默认为用户名。
+      display_name_text: 选择外显名称滴类型，默认为用户名。
       forum_description_heading: 论坛描述
-      forum_description_text: '输入一两句话简单介绍你的论坛。这将会显示为 <meta name="description"> 描述标签，一般为 160 字的文本，用于介绍网页的内容。平常多被搜索引擎截取网页简介用。'
+      forum_description_text: '输入一两句话简单介绍你滴论坛。这将会显示为 <meta name="description"> 描述标签，一般为 160 字滴文本，用于介绍网页滴内容。平常多被搜索引擎截取网页简介用。'
       forum_title_heading: 论坛名称
       home_page_heading: 论坛首页
       home_page_text: 选择一种页面作为论坛首页。
       show_language_selector_label: 显示语言选择器
       slug_driver_heading: '固定链接驱动：{model}'
-      slug_driver_text: '选择此模块的 URL 驱动。'
+      slug_driver_text: '选择此模块滴 URL 驱动。'
       title: 常规
       welcome_banner_heading: 欢迎横幅
       welcome_banner_text: 横幅文本将显示于「全部主题」页面顶部，可以用于欢迎论坛访客。
@@ -70,7 +70,7 @@ core:
       title: 仪表盘
       tools_button: 工具
     debug-warning:
-      detail: "启用 <code>调试</code> 模式时，所有 Flarum 请求均不会缓存，<code>JavaScript</code> 和 <code>CSS</code> 文件将每次请求时返回全新的编译版本。调试模式中，所有日志、警告和错误均会以弹窗形式展示在网页中，数据库密码、环境变量等敏感信息均有可能在此期间泄露。\n\n因此我们强烈建议你在生产环境中将 <code>config.php</code> 文件中的 <code>debug</code> 设置为 <code>false</code> 以禁用调试模式。请查看 <link>Flarum 文档</link>了解更多信息。\n"
+      detail: "启用 <code>调试</code> 模式时，所有 Flarum 请求均不会缓存，<code>JavaScript</code> 和 <code>CSS</code> 文件将每次请求时返回全新滴编译版本。调试模式中，所有日志、警告和错误均会以弹窗形式展示在网页中，数据库密码、环境变量等敏感信息均有可能在此期间泄露。\n\n因此我们强烈建议你在生产环境中将 <code>config.php</code> 文件中滴 <code>debug</code> 设置为 <code>false</code> 以禁用调试模式。请查看 <link>Flarum 文档</link>了解更多信息。\n"
       label: 调试模式已激活
     edit_css:
       customize_text: '添加 Less/CSS 代码以自定义论坛外观，此设置将覆盖 Flarum <a>默认样式</a>。'
@@ -83,7 +83,7 @@ core:
     edit_group:
       color_label: '=> core.ref.color'
       delete_button: 删掉用户组
-      delete_confirmation: 确定删掉此用户组？该用户组中的用户<strong>不会</strong>被删掉。
+      delete_confirmation: 确定删掉此用户组？该用户组中滴用户<strong>不会</strong>被删掉。
       hide_label: 在论坛中隐藏
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
@@ -115,13 +115,13 @@ core:
       send_test_mail_button: 发送
       send_test_mail_heading: 发送测试邮件
       send_test_mail_success: 测试邮件已经发送了，快去收件箱看吧！
-      send_test_mail_text: '使用上述设置发送测试邮件到你的邮箱：{email}'
+      send_test_mail_text: '使用上述设置发送测试邮件到你滴邮箱：{email}'
       smtp_heading: 'SMTP 设置'
       title: '=> core.ref.email'
     extension:
       configure_scopes: 设置范围
-      confirm_purge: '重置操作会清除数据库中所有该扩展相关的记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？'
-      confirm_uninstall: 此扩展的的数据库条目和文件资源都将被永久性删掉，确定要继续吗？
+      confirm_purge: '重置操作会清除数据库中所有该扩展相关滴记录和资源。如要卸载扩展，请通过 Composer 操作。确定要重置扩展吗？'
+      confirm_uninstall: 此扩展滴滴数据库条目和文件资源都将被永久性删掉，确定要继续吗？
       disabled: 关闭
       enable_to_see: 扩展没开，你设置个集贸。
       enabled: 开启
@@ -133,7 +133,7 @@ core:
         support: 支持
         website: 主页
       no_permissions: 这个扩展没有神权。
-      no_settings: 这个扩展是不让设置的。
+      no_settings: 这个扩展是不让设置滴。
       open_modal: 打开设置
       permissions_title: 神权
       purge_button: 重置
@@ -172,9 +172,9 @@ core:
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
-      allow_hide_own_posts_label: 允许删掉自己的帖子
+      allow_hide_own_posts_label: 允许删掉自己滴帖子
       allow_post_editing_label: 编辑帖子内容
-      allow_renaming_label: 改自己的主题标题
+      allow_renaming_label: 改自己滴主题标题
       create_access_token_label: 创建访问令牌
       create_heading: 帖子相关
       delete_discussions_forever_label: 彻底删掉主题
@@ -200,7 +200,7 @@ core:
       start_discussions_label: 发主题
       title: 神权
       view_forum_label: 浏览论坛（讨论和用户）
-      view_hidden_groups_label: 查看隐藏的用户组徽章
+      view_hidden_groups_label: 查看隐藏滴用户组徽章
       view_last_seen_at_label: 查看用户上次在线时间
       view_post_ips_label: '查看 IP 地址'
     permissions_controls:
@@ -214,7 +214,7 @@ core:
       signup_closed_button: 关闭注册
       signup_open_button: 开放注册
     settings:
-      saved_message: 你的修改已保存。
+      saved_message: 你滴修改已保存。
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -242,7 +242,7 @@ core:
           user_id:
             title: ID
           username:
-            profile_link_tooltip: '访问 {username} 的主页'
+            profile_link_tooltip: '访问 {username} 滴主页'
             title: '=> core.ref.username'
         invalid_column_content: 非法
       pagination:
@@ -263,16 +263,16 @@ core:
     invalid_username_message: '用户名只能由字母、数字及连字符 (-) 组成'
   email:
     activate_account:
-      body: "嘿，{username}！\n\n你刚刚注册了 {forum}。\n\n如果是你做的，请点击下方链接激活账号：\n{url}\n\n若非你本人注册，请忽略此邮件。\n"
+      body: "嘿，{username}！\n\n你刚刚注册了 {forum}。\n\n如果是你做滴，请点击下方链接激活账号：\n{url}\n\n若非你本人注册，请忽略此邮件。\n"
       subject: 账号激活
     confirm_email:
-      body: "嘿，{username}!\n\n你改了 {forum} 的账号邮箱。\n\n如果是你做的，请点击下方链接确认改：\n{url}\n\n若非你本人操作，请忽略这封邮件。\n"
+      body: "嘿，{username}!\n\n你改了 {forum} 滴账号邮箱。\n\n如果是你做滴，请点击下方链接确认改：\n{url}\n\n若非你本人操作，请忽略这封邮件。\n"
       subject: 确认邮箱地址
     reset_password:
-      body: "嘿，{username}！\n\n你请求重置 {forum} 的密码。\n\n如果是你做的，请点击下方链接重置密码：\n{url}\n\n如非你本人操作，请忽略这封邮件，我们不会受理重置操作。\n"
+      body: "嘿，{username}！\n\n你请求重置 {forum} 滴密码。\n\n如果是你做滴，请点击下方链接重置密码：\n{url}\n\n如非你本人操作，请忽略这封邮件，我们不会受理重置操作。\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
-      body: "{username}，恭喜你呀！\n\n你的论坛邮箱服务可用。\n\n本邮件用于测试邮箱服务配置是否正确。\n\n若非本人发送测试邮件，请忽略。\n"
+      body: "{username}，恭喜你呀！\n\n你滴论坛邮箱服务可用。\n\n本邮件用于测试邮箱服务配置是否正确。\n\n若非本人发送测试邮件，请忽略。\n"
       subject: 'Flarum 邮件测试'
   forum:
     change_email:
@@ -284,7 +284,7 @@ core:
       title: '=> core.ref.change_email'
     change_password:
       send_button: 发重置密码邮件
-      text: 点击按钮发重置链接到你的邮箱来重置密码。
+      text: 点击按钮发重置链接到你滴邮箱来重置密码。
       title: '=> core.ref.change_password'
     composer:
       close_tooltip: 关闭
@@ -332,15 +332,15 @@ core:
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 如果你输入的电子邮件已在本站注册过，我们将向其发送一封含有重置密码链接的邮件。若未收到请检查垃圾箱。
-      not_found_message: 莫找到这个邮箱的注册用户
+      email_sent_message: 如果你输入滴电子邮件已在本站注册过，我们将向其发送一封含有重置密码链接滴邮件。若未收到请检查垃圾箱。
+      not_found_message: 莫找到这个邮箱滴注册用户
       submit_button: 重置密码
-      text: 请输入账户的注册邮箱地址，我们将发送重设密码链接至该邮箱。
+      text: 请输入账户滴注册邮箱地址，我们将发送重设密码链接至该邮箱。
       title: 密码忘记了
     header:
       admin_button: 神权
       back_to_index_tooltip: 重开
-      locale_dropdown_accessible_label: 改论坛说的话
+      locale_dropdown_accessible_label: 改论坛说滴话
       log_in_link: '=> core.ref.log_in'
       log_out_button: '=> core.ref.log_out'
       profile_button: 你滴信息
@@ -362,15 +362,15 @@ core:
     index_sort:
       latest_button: 新回复
       newest_button: 新作品
-      oldest_button: 老掉牙的
+      oldest_button: 老掉牙滴
       relevance_button: 推点东西
       toggle_dropdown_accessible_label: 改一下首页排序
-      top_button: 好康的
+      top_button: 好康滴
     log_in:
       forgot_password_link: 我把密码忘记了
       invalid_login_message: 输错了吧
       password_placeholder: '=> core.ref.password'
-      remember_me_label: 记住我的登录状态
+      remember_me_label: 记住我滴登录状态
       sign_up_text: '还没有帐户？ <a>立即注册</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
@@ -398,12 +398,12 @@ core:
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 帖子下拉菜单开关
     post_scrubber:
-      now_link: 新的
-      original_post_link: 旧的
+      now_link: 新滴
+      original_post_link: 旧滴
       unread_text: '{count} 条还没看'
       viewing_text: '{count, plural, one {{index} / {formattedCount} 条} other {{index} / {formattedCount} 条}}'
     post_stream:
-      discussion_renamed_old_tooltip: '原来的题目：「{old}」'
+      discussion_renamed_old_tooltip: '原来滴题目：「{old}」'
       discussion_renamed_text: '{username} 在 {time} 把标题改成了「{new}」'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
@@ -416,7 +416,7 @@ core:
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
     security:
-      browser_on_operating_system: '{browser}（{os} 上的）'
+      browser_on_operating_system: '{browser}（{os} 上滴）'
       cannot_terminate_current_session: 会话删不掉了，重开吧。
       created: 创建时间
       current_active_session: 当前活动会话
@@ -424,7 +424,7 @@ core:
       empty_text: 无可用令牌。
       global_logout:
         heading: 全局重开
-        help_text: '清除当前 Cookie 会话、终止所有会话、撤销所有整活人员令牌，并使一切验证邮箱或重置密码的链接失效。'
+        help_text: '清除当前 Cookie 会话、终止所有会话、撤销所有整活人员令牌，并使一切验证邮箱或重置密码滴链接失效。'
         log_out_button: '=> core.ref.log_out'
       hide_access_token: 隐藏令牌
       last_activity: 最近活动
@@ -455,8 +455,8 @@ core:
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: 通知
-      notify_discussion_renamed_label: 我的主题标题被改
-      privacy_disclose_online_label: 公开我的在线状态
+      notify_discussion_renamed_label: 我滴主题标题被改
+      privacy_disclose_online_label: 公开我滴在线状态
       privacy_heading: 隐私设置
       title: '=> core.ref.settings'
     sign_up:
@@ -484,7 +484,7 @@ core:
     user_controls:
       button: 操作
       delete_button: '=> core.ref.delete'
-      delete_confirmation: 确定要删掉此用户？此账号会被注销，已发的帖子仍会保留。
+      delete_confirmation: 确定要删掉此用户？此账号会被注销，已发滴帖子仍会保留。
       delete_error_message: '删掉用户 <i>{username} ({email})</i> 失败'
       delete_success_message: '已删掉用户 <i>{username} ({email})</i>'
       edit_button: '=> core.ref.edit'
@@ -498,10 +498,10 @@ core:
   group:
     admin: 神权者
     admins: 神权组
-    guest: 没注册的
-    guests: 没注册的
-    member: 注册的
-    members: 注册的
+    guest: 没注册滴
+    guests: 没注册滴
+    member: 注册滴
+    members: 注册滴
     mod: 次级神权者
     mods: 次级神权组
   lib:
@@ -537,7 +537,7 @@ core:
       not_found_message: 糟糕，404 Not Found！
       payload_too_large_message: 请求负载过大。
       permission_denied_message: 你没有神权进行此操作。
-      rate_limit_exceeded_message: 你的操作太频繁，给我等着再试。
+      rate_limit_exceeded_message: 你滴操作太频繁，给我等着再试。
       render_failed_message: 坏了，进不去啊。
     loading_indicator:
       accessible_label: '=> core.ref.loading'
@@ -565,9 +565,9 @@ core:
     confirm_email: 确认邮箱
     confirm_password: 确认密码
     confirmation_email_sent: '账号激活邮件已发送至 {email}，请激活账号，若未收到请检查垃圾箱。'
-    custom_footer_text: '添加显示于页面底部的 HTML 代码。'
+    custom_footer_text: '添加显示于页面底部滴 HTML 代码。'
     custom_footer_title: 编辑自定义页脚
-    custom_header_text: '添加显示于页面顶部、位于 Flarum 默认页眉上方的 HTML 代码。'
+    custom_header_text: '添加显示于页面顶部、位于 Flarum 默认页眉上方滴 HTML 代码。'
     custom_header_title: 编辑自定义页眉
     delete: 删掉
     delete_forever: 彻底删掉
@@ -616,7 +616,7 @@ core:
         disable: 关闭
         empty: 莫有安装扩展
         enable: 启用
-        name: 扩展的名字
+        name: 扩展滴名字
         package_name: 软件包
         version: 版本
       info:
@@ -624,10 +624,10 @@ core:
       title: 整活人员
     confirm_email:
       submit_button: '=> core.ref.confirm_email'
-      text: 点下面的按钮确认你的邮箱。
+      text: 点下面滴按钮确认你滴邮箱。
       title: '=> core.ref.confirm_email'
     content:
-      javascript_disabled_message: '为什么不使用更现代的浏览器并启用 JavaScript 以获得最佳浏览体验啊？'
+      javascript_disabled_message: '为什么不使用更现代滴浏览器并启用 JavaScript 以获得最佳浏览体验啊？'
       load_error_message: 完了，加载论坛时出错，请强制刷新页面重试。
       loading_text: '=> core.ref.loading'
     discussion:
@@ -655,6 +655,6 @@ core:
       without_page_title: '{pageNumber, plural, =1 {{forumName}} other {第 # 页 - {forumName}}}'
     reset_password:
       confirm_password_label: '=> core.ref.confirm_password'
-      new_password_label: 新的密码
+      new_password_label: 新滴密码
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.reset_your_password'
